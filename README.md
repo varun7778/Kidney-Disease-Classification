@@ -9,6 +9,10 @@ Technologies Used:
 - AWS ECR (Elastic Container Registry)
 - AWS IAM (Identity and Access Management)
 
+
+## Project Architecture
+![alt text](img/1.png)
+
 ## Steps to run:
 
 ### Clone the repository
@@ -19,7 +23,7 @@ https://github.com/varun7778/Kidney-Disease-Classification.git
 ### Create a conda environment after opening the repository
 
 ```bash
-conda create -n cicd python=3.8 -y
+conda create -n cicd python=3.9 -y
 ```
 
 ```bash
@@ -117,11 +121,11 @@ dvc dag
 
 	newgrp docker
 	
-# 6. Configure EC2 as self-hosted runner:
+## 6. Configure EC2 as self-hosted runner:
     Github>setting>actions>runner>new self hosted runner> choose os(linux)> then run command one by one in EC2 instance
 
 
-# 7. Setup github secrets:
+## 7. Setup github secrets:
 
     AWS_ACCESS_KEY_ID=
 
