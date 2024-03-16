@@ -1,5 +1,13 @@
 # Kidney-Disease-Classification
 Technologies Used:
+- TensorFlow
+- MLflow
+- DVC (Data Version Control)
+- GitHub Actions
+- Docker
+- AWS EC2 (Elastic Compute Cloud)
+- AWS ECR (Elastic Container Registry)
+- AWS IAM (Identity and Access Management)
 
 ## Steps to run:
 
