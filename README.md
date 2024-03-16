@@ -51,7 +51,7 @@ open up you local host and port
 - mlflow ui
 
 ### dagshub
-[dagshub](https://dagshub.com/)
+https://dagshub.com/
 
 MLFLOW_TRACKING_URI=https://dagshub.com/varun7778/Kidney-Disease-Classification-MLFlow.mlflow \
 MLFLOW_TRACKING_USERNAME=varun7778 \
